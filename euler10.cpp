@@ -7,7 +7,7 @@
 
 int main()
 {
-	const uint32_t two_million = 10;
+	const uint32_t two_million = 2000000;
 	std::vector<bool> primes(two_million, true);
 	size_t sum = (std::pow(two_million, 2) + two_million) / 2;
 	for (size_t p=2; p*p<=two_million; p++)
